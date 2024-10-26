@@ -1,0 +1,42 @@
+.container {
+    width: 575px;
+    height: 825px;
+    background-color: grey;
+    padding: 60px;
+    box-sizing: border-box; /* Ensure padding is included in the width and height */
+}
+
+#height, #weight {
+    height: 25px;
+    width: 200px;
+    margin-top: 25px;
+}
+
+button {
+    width: 125px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid black; /* Add width, style, and color */
+    margin-left: 185px;
+    margin-top: 30px;
+    cursor: pointer; /* Add cursor pointer for better UX */
+}
+
+#weight-guide {
+    margin-left: 75px;
+    margin-top: 45px;
+}
+
+h1 {
+    padding-left: 15px;
+    padding-top: 25px;
+    text-align: center; /* Center align the heading */
+}
+
+#results {
+    font-size: 35px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(241, 241, 241);
+    text-align: center; /* Center align the results */
+}
